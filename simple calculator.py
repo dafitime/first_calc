@@ -3,10 +3,10 @@ import tkinter as tk
 
 count = 0
 
-if __name__ == "__main__":
-    root = Tk()
-    root.title('Simple Calculator')
-    root.mainloop()
+
+    
+root = Tk()
+root.title('Simple Calculator')
 
 
 
@@ -150,3 +150,4 @@ root.columnconfigure(0, weight=1)
 root.columnconfigure(1, weight=1)
 root.columnconfigure(2, weight=1)
 
+root.mainloop()
